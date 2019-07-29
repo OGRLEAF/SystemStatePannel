@@ -1,0 +1,2 @@
+# SystemStatePannel
+简单的在其他设备上监视系统状态的工具
