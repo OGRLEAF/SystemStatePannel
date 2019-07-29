@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.header{
+    display: flex;
+    align-content: flex-end;
+    color:white
+}
+.header-title{
+    font-size: 2em;
+}
+#time{
+    color: white;
+    display: inline;
+    margin: 2.7em 0 0 20px;
+    font-size:0.4em;
+}
+h1{
+    margin-top:0px;
+    margin-bottom: 0.1rem;
+    font-size: 2.0rem;
+    color:white;
+}
+.progress{
+    margin:0px 20px 0px 20px;
+    height: 20px;
+
+}
+.progress-sample{
+    width: 11em;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.progress-sample-label{
+    width: 6em;
+    text-align: center;
+}
+
+.info>.progress{
+    /*background-color: #28a745;*/
+    background-color: white:
+}
+.info{
+    margin-bottom: 10px;
+}
+.info>p{
+    margin-left: 10px;
+    margin-bottom: 4px;
+    font-size: 1.1em;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.info>p>small{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 0.6em;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#cpu-total::after{
+    content:" logical cores."
+}
+#mem-total::after{
+    content:" in total."
+}
+#current-users>div{
+    color: white
+}
+
+.popover-body {
+    padding: .3rem .75rem;
+    color: #212529;
+    font-size: 0.6rem;
+}
+.series>p{
+    margin-left: -10px;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif
+}
+.info>.row>.series{
+    margin-left: 20px
+}
